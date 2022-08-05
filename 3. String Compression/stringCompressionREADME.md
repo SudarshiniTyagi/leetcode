@@ -1,0 +1,2 @@
+# String Compression
+Implement a method to perform basic string compression using the counts of repeated character. For example, the string aabcccccaaa would become aabc5a3. If the compression doesn't shorten the length of the original string, leave it as is. Assume the string only has uppercase and lowercase letters (a-z)
