@@ -11,7 +11,7 @@ class TwoSum:
         print("Target is: " + str(self.target))
         print("Size Input is: " + str(self.size_input))
 
-    def getTwoSum(self):
+    def get_two_sum(self):
         # implement solution here
         i,j = 0,0
         while (i<self.size_input):
@@ -26,13 +26,13 @@ class TwoSum:
 
 
 example = TwoSum([2, 7, 11, 15], 9)
-output = example.getTwoSum()
+output = example.get_two_sum()
 print("Output is: "+str(output)+"\n\n")
 
 example2 = TwoSum([3,2,4], 6)
-output2 = example2.getTwoSum()
+output2 = example2.get_two_sum()
 print("Output is: "+str(output2)+"\n\n")
 
 example3 = TwoSum([3,3], 6)
-output3 = example3.getTwoSum()
+output3 = example3.get_two_sum()
 print("Output is: "+str(output3)+"\n\n")
